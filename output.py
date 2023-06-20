@@ -1,7 +1,6 @@
 import great_expectations as gx
 context = gx.get_context()
 
-datasource = context.sources.add_pandas_filesystem(name = 'pandas datasource', base_directory = '/path/to/your/files/')
 
 
 
