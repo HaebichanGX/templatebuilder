@@ -1,3 +1,4 @@
 ipywidgets
+voila>=0.1.8
 pandas
 spark

@@ -1,2 +1,1 @@
-
- web: voila --port=$PORT --no-browser --template vuetify-default --enable_nbextensions=True TemplateBuilder.ipynb --Voila.ip=0.0.0.0
+web: voila --no-browser --port=$PORT --Voila.ip=0.0.0.0 TemplateBuilder.ipynb
