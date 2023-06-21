@@ -1,9 +1,7 @@
 import great_expectations as gx
 context = gx.get_context()
 
-datasource = context.sources.add_pandas_filesystem(name = 'pandas datasource', base_directory = '/path/to/your/files/')
 
-asset = datasource.add_csv_asset(name = 'csv asset', batching_regex = "your_data.csv")
 
 
 batch_request = asset.build_batch_request()
